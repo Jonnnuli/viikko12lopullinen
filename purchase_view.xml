@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginTop="5dp"
+    android:background="#EBE2FA">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textViewPurchase"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Ostos"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewToRemember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muista:"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="200dp"
+        android:layout_height="130dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

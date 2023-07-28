@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81C9D3"
+    tools:context=".fragments.FragmentB">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="100dp"
+        android:text="Lisää ostos:"
+        android:textSize="20sp"
+        android:layout_gravity="top"/>
+
+    <EditText
+        android:id="@+id/editTextPurchase"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Ostos"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextToRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="290dp"
+        android:onClick="addPurchase"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/textViewRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:text="Muista:"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/buttonImportant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merkkaa tärkeäksi!"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="230dp"/>
+
+
+</FrameLayout>
